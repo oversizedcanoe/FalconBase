@@ -12,7 +12,7 @@ python -m venv .
 source bin/activate
 python -m pip install -r requirements.txt
 
-# Optionally, -o or -open can be added below to automatically open your browser to 'localhost:8080'
+# Optionally, -o or -open can be added below to automatically open your browser to 'localhost:8085'
 python server.py
 ```
 
