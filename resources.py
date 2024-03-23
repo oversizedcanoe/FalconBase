@@ -6,7 +6,7 @@ import sys
 import falcon
 
 class Resource:
-    # /resource HTTP GET handler
+    # / HTTP GET handler
     def on_get(self, req, resp):
         # below not needed, they are defaults. just shown for reference
         #resp.status = falcon.HTTP_200
