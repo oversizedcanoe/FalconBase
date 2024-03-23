@@ -9,6 +9,7 @@ cd /directory/for/project
 git clone https://github.com/oversizedcanoe/FalconBase.git
 cd FalconBase
 python -m venv .
+source bin/activate
 python -m pip install -r requirements.txt
 python server.py
 ```
