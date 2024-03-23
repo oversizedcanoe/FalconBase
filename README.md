@@ -11,8 +11,10 @@ cd FalconBase
 python -m venv .
 source bin/activate
 python -m pip install -r requirements.txt
+
+# Optionally, -o or -open can be added below to automatically open your browser to 'localhost:8080'
 python server.py
 ```
 
-Navigate to ```localhost:8080/resource```.
+Navigate to ```localhost:8080```.
 See (Falcon Docs)[https://falcon.readthedocs.io/en/stable/] for more.
