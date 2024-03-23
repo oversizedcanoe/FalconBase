@@ -16,5 +16,4 @@ python -m pip install -r requirements.txt
 python server.py
 ```
 
-Navigate to ```localhost:8080```.
 See (Falcon Docs)[https://falcon.readthedocs.io/en/stable/] for more.
