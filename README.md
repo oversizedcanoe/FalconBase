@@ -16,4 +16,4 @@ python -m pip install -r requirements.txt
 python server.py
 ```
 
-See (Falcon Docs)[https://falcon.readthedocs.io/en/stable/] for more.
+See [Falcon Docs](https://falcon.readthedocs.io/en/stable/) for more.
