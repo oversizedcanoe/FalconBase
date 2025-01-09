@@ -25,7 +25,7 @@ class Resource:
     # /resource HTTP POST handler
     def on_post(self, req, resp):
         try:
-            print(str(datetime.datetime.now()) + ': Incoming GET request')
+            print(str(datetime.datetime.now()) + ': Incoming POST request')
             print('Doing some POSTing...')
             #req_body = req.media
             print(str(datetime.datetime.now()) + ': Sending response')
